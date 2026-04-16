@@ -8,9 +8,9 @@ let media = (nota1 + nota2 + nota3 + nota4) / 4;
 console.log("Média:", media);
 
 if (media >= 7) {
-    console.log("Aprovado");
+    console.log("Parabéns,você foi aprovado!");
 } else if (media >= 5) {
-    console.log("Recuperação");
+    console.log("Calma, você ficou de recuperação");
 } else {
-    console.log("Reprovado");
+    console.log("É, infelimente você foi reprovado");
 }
